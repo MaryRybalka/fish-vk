@@ -63,9 +63,9 @@
             v-model="login">
           <input
             v-if="login"
-            type="text"
+            type="password"
             placeholder="Пароль"
-            name="login"
+            name="password"
             class="bg-gray-100 rounded-lg px-3 py-2 border-[1px] border-gray-200 w-full mb-4 text-[15px] leading-[1.33]"
             v-model="pass">
         </div>
